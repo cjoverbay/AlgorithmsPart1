@@ -1,3 +1,5 @@
+package Week1;
+
 public class UFQuickUnion implements UF{
     private final int[] index;
     private final int size;

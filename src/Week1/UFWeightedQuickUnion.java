@@ -1,3 +1,5 @@
+package Week1;
+
 public class UFWeightedQuickUnion implements UF{
     private class WeightedRoot{
         WeightedRoot(int r, int w) {
