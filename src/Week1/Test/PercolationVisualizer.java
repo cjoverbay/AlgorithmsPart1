@@ -24,9 +24,9 @@ import edu.princeton.cs.algs4.StdDraw;
 
 public class PercolationVisualizer {
 
-    private static final Color BORDER_COLOR = Color.decode("#4C5164");
-    private static final Color FILL_COLOR = Color.decode("#92A7BC");
-    private static final Color OPEN_COLOR = Color.decode("#F5E3CD");
+    private static final Color BORDER_COLOR = Color.decode("#2D2D2D");
+    private static final Color FILL_COLOR = Color.decode("#38BAE9");
+    private static final Color OPEN_COLOR = Color.decode("#FFFFFF");
 
 
     // delay in miliseconds (controls animation speed)

@@ -64,7 +64,7 @@ public class Percolation {
     }
 
     public boolean isFull(int row, int col) {
-        return !isOpen(row, col);
+        return sites.connected(0, getIndex(row, col));
     }
 
     public int numberOfOpenSites() {
